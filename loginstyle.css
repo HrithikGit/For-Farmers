@@ -1,0 +1,113 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.slider{
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size:cover;
+  background-position: auto;
+  animation: slide 20s infinite;
+  transition: 0.2s;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.log{
+  padding-bottom:5%;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@keyframes slide{
+  0%{
+    background-image: url(images/bg1.jpg);
+  }
+  25%{
+    background-image: url(images/bg1.jpg);
+  }
+  25.01%{
+    background-image: url(images/bg2.jpg);
+  }
+  50%{
+    background-image: url(images/bg2.jpg);
+  }
+  50.01%{
+    background-image: url(images/bg3.jpg);
+  }
+  75%{
+    background-image: url(images/bg3.jpg);
+  }
+  75.01%{
+    background-image: url(images/bg4.jpg);
+  }
+  100%{
+    background-image:url(images/bg4.jpg);
+  }
+  
+  
+}
+
+.login-page{
+  width: 360px;
+  padding: 10% 0 0;
+  margin: auto;
+}
+
+.form{
+  border-radius: 25px;
+  position: relative;
+  z-index: 1;
+  background:lightgray;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+}
+
+.form input{
+  border-radius: 20px;
+  font-family: "Roboto",sans-serif;
+  outline: 1;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form button{
+  font-family: sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  border-radius:25px;
+  background: #4caf50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.form button:hover,.form button:active{
+  background: #43a047;
+}
+
+.form .message{
+  margin: 15px 0 0;
+  color: aliceblue;
+  font-size: 12px;
+}
+
+.form .message{
+  color: #000000;
+  text-decoration: none;
+
+}
+
+.form .register-form{
+  display: none;
+}

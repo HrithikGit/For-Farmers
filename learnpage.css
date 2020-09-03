@@ -1,0 +1,44 @@
+*{
+    margin: auto;
+    border: 0;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.column{
+    border-radius: 10px;
+    background-color:lightgray;
+    height: 370px;
+    float:left;
+    width: 500px;
+    text-align: center;
+    justify-content: center;
+}
+.row{
+    padding-top:1%;
+    padding-bottom: 1%;
+    padding-right: -1%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.container1{
+    background: radial-gradient(#fff,#7fff36);
+}
+h1{
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.column img{
+    padding: 2% 0%;
+    height: 300px;
+    width:400px;
+    transition: 0.2s;
+}
+.column img:hover{
+    height: 320px;
+    width:420px;
+}
