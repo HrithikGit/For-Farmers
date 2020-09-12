@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background: radial-gradient(#fff,	#FFC0CB);
+}
+h1{
+    text-align: center;
+    font-family: Times ;
+}
+nav{
+    background:#594848;
+    width: 100%;
+    overflow: auto;
+}
+nav img{
+    margin-left: 10px;
+    float: left;
+    height: auto;
+    width: 5%;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none ;
+}
+li{
+    display: flex;
+    float: right;
+    margin-top: 1%;
+    margin-right: 20px;
+}
+nav a:hover{
+    background:white;
+    color: black;
+}
+nav a {
+    width:120px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background: #594848;
+    font-size: 14px;
+    color:white;
+    padding: 10px 0px;
+    font-family: Arial;
+}
+.column {
+    margin-top: 25px;
+    float: left;
+    border: 1px solid #ccc;
+    background:	#FFF8DC;
+    width: 30%;
+    margin-left:60px;
+    border-radius: 10px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column img{
+      margin-top: 20px;
+      margin-left:40px;
+      height:400px;
+      width: 490px;
+      transition: 0.7s ease;
+  }
+.column img:hover{
+    transform:scale(1.1);
+}
+.row .column a{
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+    font-family: Georgia;
+}
+.youtube{
+    padding-left: 20%;
+}
+h2{
+    color: purple;
+    padding-left:22%;
+    font-size: 20px;
+}
+p{
+    margin-left: 7%;
+    word-spacing: 10px;
+    margin-right: 7%;
+    font-size: 20px;
+}
+h3{
+    color: purple;
+    font-size:25px;
+    padding-left:7%;
+}
+.contain img{
+    height:2%;
+    width:95%;
+    padding-left:9%;
+}

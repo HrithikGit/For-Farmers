@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images/background-farmer.jpeg");
+    background-size: cover;
+    height:100vh;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+    margin: 5px;
+}
+ul li a.active{
+    background-color:#fff;
+    color :  #000;
+}
+ul li a{
+    text-decoration:none;
+    color :  #fff;
+    padding: 5px 25px;
+    border : 1px solid #fff;
+    transition : 0.6s ease;
+}
+ul li a:hover{
+    background-color:#fff;
+    color :  #000;
+}
+.logo img{
+    float:left;
+    width:6%;
+    height:auto
+}
+.title{
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    
+}
+.title p{
+    color: #fff;
+    font-style: italic;
+    text-align: center;
+}
+.title h1{
+    color:#fff;
+    font-size:70px;
+}
+.learnpage{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images/mb.jpg");
+    background-size: cover;
+    height:100vh;
+    background-position: center;
+}
+.learnpage .lp{
+    position: absolute;
+    top:150%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.learnpage .lp p{
+    color:#fff;
+    font-weight: 700;
+}
+.learnpage .lp h1{
+    width:150%;
+    color:#fff;
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.learnpage .lp button{
+    margin-left: 45%;
+    font-family: Georgia;
+    justify-content: center;
+    background:orangered;
+    color:#fff;
+    width:85px;
+    height:30px;
+    border: none;
+    border-radius:25px
+}
+.learnpage .lp button:hover{
+    background: chocolate;
+}
+.shoppage{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images/farmer-yeild.jpg");
+    background-size: cover;
+    height:100vh;
+    background-position: center;
+}
+.shoppage .sp{
+    position: absolute;
+    top:250%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.shoppage .sp p{
+    color:#fff;
+    font-weight: 700;
+}
+.shoppage .sp h1{
+    width:200%;
+    color:#fff;
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.shoppage .sp button{
+    margin-left: 45%;
+    font-family: Georgia;
+    justify-content: center;
+    background:orangered;
+    color:#fff;
+    width:85px;
+    height:30px;
+    border: none;
+    border-radius:25px
+}
+.shoppage .sp button:hover{
+    background: chocolate;
+}
